@@ -43,8 +43,9 @@ Un ejemplo de cómo se ve la respuesta de una factura:
 - **Java** ☕
 - **Spring Boot** 🥾
 - **Maven** 📦
-- **H2 Database** 🗄️ (o tu base de datos favorita)
 - **JUnit** ✅ para pruebas unitarias.
+
+> **Nota:** Este proyecto no utiliza ninguna base de datos. Todos los datos son gestionados en memoria utilizando identificadores únicos (IDs).
 
 ## 🛠️ Cómo ejecutar el proyecto:
 1. Clona este repositorio:
@@ -52,12 +53,12 @@ Un ejemplo de cómo se ve la respuesta de una factura:
    git clone https://github.com/tu-usuario/factura-pro.git
    ```
 2. Configura tu entorno de desarrollo:
-   - Requisitos: Java 17, Maven.
+   - Requisitos: Java 21, Maven.
 3. Ejecuta el proyecto con:
    ```bash
    mvn spring-boot:run
    ```
-4. Accede al backend en `http://localhost:8080`.
+4. Accede al backend en `localhost:8080/invoices/show`.
 
 ## 🎯 Contribuciones:
 ¡Este proyecto está abierto a contribuciones! 🧑‍💻 Siéntete libre de crear un pull request o abrir un issue para mejoras y nuevas funcionalidades.
