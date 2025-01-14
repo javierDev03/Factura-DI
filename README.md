@@ -9,7 +9,7 @@
 - 📊 **Cálculo de totales dinámicos**: Calcula automáticamente el importe total de la factura en base a los productos y cantidades.
 
 ## 📦 Respuesta JSON:
-Un ejemplo de cómo se ve la respuesta de una factura:  
+Un ejemplo de cómo se ve la respuesta de una factura :  
 ```json
 {
     "client": {
